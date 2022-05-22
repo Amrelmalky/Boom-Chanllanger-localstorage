@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: -2px;
+    font-weight: 600;
+    color: rgb(31, 30, 30);
+}
+
+
+.container {
+
+    background-color: rgb(184, 194, 189);
+    height: 40vh;
+    border-radius: 10px;
+
+
+
+
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+
+}
+
+
+input {
+    width: 40vw;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+
+.show_Tasks {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    width: max-content; */
+
+   
+
+
+    margin: 20px auto;
+    padding: 5px;
+ 
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 50vw;
+    background-color: rgb(4, 112, 254);
+    margin: 5px auto;
+    margin-bottom: 5px;
+    color:white;
+    border-radius: 5px ;
+
+}
+
+.active{
+    display: block;
+}
